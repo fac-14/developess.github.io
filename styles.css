@@ -1,0 +1,449 @@
+/*
+This build followed a mobile-first approach. The first style set
+you see (up to the media queries) sets the basic styles and relates
+to the mobile layout.
+*/
+
+
+/*
+General Styles and Resets
+________________________*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #051D68;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.08em;
+  margin: 10px 30px;
+}
+
+h3 {
+  margin: 20px 30px;
+}
+
+p {
+  margin: 0 30px;
+
+}
+
+button {
+  box-shadow: 0 2px 50px 0 rgba(0,0,0,0.50);
+  border-radius: 5px;
+  font-family: lato;
+  font-size: 1em;
+  letter-spacing: 1.8px;
+  padding: 10px;
+  margin: 30px 30px;
+}
+
+/*
+Hidden assets in Mobile Layout
+______________________________*/
+
+.toplogo {
+  display: none;
+}
+
+.origami_bird {
+  display: none;
+}
+
+.side_bird {
+  display: none;
+}
+
+.logo_bottom {
+  display: none;
+}
+
+.line {
+  display: none;
+}
+
+/*
+Orange-blob Header Section and Nav Bar
+__________________________________*/
+
+header {
+  background: url(./img/OrangeBlob.png) 0px 0px/160%  no-repeat;
+  height: 78vh;
+}
+
+/*   Nav Bar   */
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  padding: .45em 1.2em;
+  margin-top: .7em;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/*   Main Header Content   */
+
+header h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5em;
+  margin: 60px 30px 10px 30px;
+}
+
+header button {
+  background: #FFF;
+  color: #F76F1F;
+}
+
+/*
+   Projects section
+____________________*/
+
+.projects {
+  text-align: center;
+}
+
+
+.grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.project_square {
+  color: rgba(255,255,255,0.4);
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  margin: 25px;
+  animation: fadein 2s ease-out;
+}
+
+@keyframes fadein {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.projects h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3.5em;
+  margin: 0;
+  position: absolute;
+  padding-left: 15px;
+  letter-spacing: .1em; }
+
+.projects button {
+  background: #051D68;
+  color: #FFF;
+}
+
+.projects .purple {
+  background: #546BA3;
+}
+
+.projects .blue {
+  background: #85D3E8;
+}
+
+.projects .orange {
+  background: #FFA882;
+}
+
+
+/*
+   Projects SVG Line
+_______________________*/
+
+.line {
+  display: inline;
+}
+
+#projects_line {
+  stroke-dasharray: 600;
+  stroke-dashoffset: 0;
+  animation: dash 1s linear reverse;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 600;
+  }
+}
+/*
+    CV section
+________________*/
+
+.CV {
+  padding-top: 20px;
+}
+
+.CV p {
+  padding: 20px 0;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.CV button {
+  background: #F76F1F;
+  color: #FFF;
+  text-align: center;
+}
+
+
+/*
+    About Me section
+______________________*/
+
+.about-me {
+  background-image: linear-gradient(-179deg, #0C3EA1 0%, #051D68 83%);
+  color: white;
+  text-align: right;
+  line-height: 1.4em;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 10px 0 20px;
+  position: relative;
+}
+
+.about-me h2 {
+  padding: 20px 0;
+}
+
+.about-me p {
+  padding: 20px 0;
+}
+
+.icon-container {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 55px;
+  margin: 5px;
+}
+
+/*
+            MID SCREEN STYLES
+________________________________________*/
+
+@media (min-width: 630px) {
+
+  /*
+      Header section
+  ______________________*/
+
+.toplogo {
+    display: inline;
+    position: fixed;
+    height: 70px;
+    margin: 18px;
+}
+
+header {
+    position: relative;
+    background: url(./img/OrangeBlob.png) 0px 0px/70%  no-repeat;
+    height: 92vh;
+  }
+
+header h1 {
+  font-size: 2.5em;
+  padding-top: 16vh;
+  width: 80%;
+  margin: auto;
+}
+
+header p {
+  width: 80%;
+  margin: auto;
+  padding: 40px 50% 20px 0;
+}
+
+header button {
+  margin-left: 10%;
+}
+
+li {
+  padding: 20px 30px;
+  font-size: 1.2em;
+  letter-spacing: 0.15em;
+}
+
+.origami_bird {
+  display: inline;
+  width: 360px;
+  position: absolute;
+  left: 58%;
+  top: 20%;
+  z-index: 10;
+  transition: transform 1s ease-out;
+}
+
+.origami_bird:hover {
+  transition: rotate(5deg);
+}
+
+/*
+    Projects section
+______________________*/
+
+.projects {
+  margin: 50px 0;
+}
+
+.projects h2 {
+  text-align: right;
+  padding-right: 30%;
+  margin-bottom: 3rem;
+}
+
+.project_square {
+  margin: 40px;
+}
+
+
+/*
+      CV section
+______________________*/
+
+.CV {
+  margin: 70px 10% 60px;
+  padding-right: 300px;
+}
+
+.CV h2 {
+  padding-bottom: 30px;
+}
+
+.CV p {
+  padding: 40px 0;
+}
+
+
+/*
+    About Me section
+______________________*/
+
+
+.about-me {
+  padding: 50px 0 20px;
+  position: relative;
+}
+
+.side_bird {
+  display: inline;
+  position: absolute;
+  width: 360px;
+  z-index: 11;
+  right: 0px;
+  top: -305px;
+}
+
+.about-me h2,
+.about-me p {
+  width: 50%;
+  margin-left: 22%;
+}
+
+.about-me h2 {
+  text-align: right;
+}
+
+.icon-container {
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0 15px;
+}
+
+.logo_bottom {
+  display: inline;
+  width: 40px;
+  z-index: 12;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+
+/* Media query end */
+}
+
+/*
+            LARGE SCREEN STYLES
+________________________________________*/
+
+
+@media (min-width: 1220px) {
+
+  /*
+      Header section
+  ______________________*/
+
+header {
+    background: url(./img/OrangeBlob.png) 0px 0px/64%  no-repeat;
+    height: 108vh;
+  }
+
+header h1 {
+  font-size: 3.5em;
+}
+
+.origami_bird {
+  width: 420px;
+
+}
+
+/*
+       CV section
+______________________*/
+
+.CV {
+  margin: 70px 10% 60px;
+  padding-right: 600px;
+}
+
+/*
+    About me section
+______________________*/
+
+.side_bird {
+  width: 500px;
+  top: -420px;
+}
+
+.about-me h2,
+.about-me p {
+  width: 30%;
+  margin-left: 32%;
+}
+
+
+/* Media query end */
+}
