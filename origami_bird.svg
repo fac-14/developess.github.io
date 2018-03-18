@@ -1,0 +1,38 @@
+
+<svg width="760px" height="933px" viewBox="0 0 760 933" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-26.9938696%" y1="-115.634995%" x2="72.2102936%" y2="114.558268%" id="linearGradient-1">
+            <stop stop-color="#3795CB" offset="0%"></stop>
+            <stop stop-color="#44E2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="127.682567%" y1="120.145917%" x2="-46.4272628%" y2="-36.2717481%" id="linearGradient-2">
+            <stop stop-color="#58D7E5" offset="0%"></stop>
+            <stop stop-color="#4098FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.5417136%" y1="-59.0826085%" x2="37.5514951%" y2="118.647337%" id="linearGradient-3">
+            <stop stop-color="#FFFBCF" offset="0%"></stop>
+            <stop stop-color="#48EAFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="89.651069%" y1="-78.6070402%" x2="30.7847883%" y2="90.9595622%" id="linearGradient-4">
+            <stop stop-color="#5DA2E1" offset="0%"></stop>
+            <stop stop-color="#58D7E5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-94.6595224%" y1="3.01571688%" x2="167.809596%" y2="82.5267806%" id="linearGradient-5">
+            <stop stop-color="#FCFAD0" offset="0%"></stop>
+            <stop stop-color="#30E7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1589.000000, -430.000000)">
+            <g id="Bird" transform="translate(1532.000000, 430.000000)">
+                <polygon id="Path-5" fill="url(#linearGradient-1)" transform="translate(484.500000, 506.000000) rotate(3.000000) translate(-484.500000, -506.000000) " points="306 383 346.078333 629 663 432.044922"></polygon>
+                <polygon id="Path-4" fill="url(#linearGradient-2)" transform="translate(746.000000, 267.500000) rotate(-16.000000) translate(-746.000000, -267.500000) " points="695 294.300859 797 345 776.597738 264.603037 757.665795 190"></polygon>
+                <polygon id="Path-3" fill="url(#linearGradient-3)" transform="translate(650.000000, 311.000000) rotate(-15.000000) translate(-650.000000, -311.000000) " points="534 177 766 217.907632 633.506845 445"></polygon>
+                <path d="M341.135171,57 L700,57 L382.864829,386 L24,386 L341.135171,57 Z" id="Combined-Shape" fill="url(#linearGradient-4)" transform="translate(362.000000, 221.500000) scale(-1, 1) rotate(-10.000000) translate(-362.000000, -221.500000) "></path>
+                <polygon id="Path-6" fill="url(#linearGradient-5)" points="315.52091 377 359 750.628137 158 933"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
