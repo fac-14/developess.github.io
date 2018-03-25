@@ -261,6 +261,12 @@ ______________________*/
 .icon {
   width: 55px;
   margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  fill: #F76F1F;
 }
 
 /*
@@ -422,7 +428,6 @@ ______________________*/
   right: 30px;
   bottom: 30px;
 }
-
 
 /* Media query end */
 }
