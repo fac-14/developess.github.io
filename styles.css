@@ -104,9 +104,9 @@ li a {
   border-bottom: 3px solid rgba(0,0,0,0);
 }
 
-li:hover {
+li a:hover, li a:focus {
   border-bottom: 3px solid white;
-  transition: all 1.2s ease-out;
+  transition: all 1s ease-out;
 }
 
 /*   Main Header Content   */
@@ -260,7 +260,7 @@ ______________________*/
   transition: all 0.5s ease;
 }
 
-.icon:hover {
+.icon:hover, .icon:focus {
   transform: scale(1.2);
   fill: #F76F1F;
 }
@@ -356,7 +356,7 @@ ______________________*/
   opacity: 0;
 }
 
-.reveal:hover {
+.reveal:hover, .reveal:focus {
   opacity: 1;
 }
 
