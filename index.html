@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <title>jessiebeech.com</title>
   <link rel="stylesheet" href="normalize.css"/></head>
@@ -6,15 +7,15 @@
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lato" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="img/jbfavi.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <body>
-
-
   <header>
-    <img class="toplogo"src="img/logo.svg" alt="Jessie's logo"/>
+    <img class="toplogo" src="img/logo.svg" alt="logo"/>
     <nav>
       <ul>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#CV">Why</a></li>
+        <li><a href="#Why">Why</a></li>
         <li><a href="#about_me">About Me</a></li>
       </ul>
     </nav>
@@ -24,19 +25,11 @@
       London. I love exploring, learning and all things technology. You can
       find out more about me below!
     </p>
-    <a href="#projects"><button>My Projects</button></a>
+    <button href="#projects">My Projects</button>
     <img class="origami_bird" src="img/origami_bird.svg" alt="blue origami bird"/>
   </header>
 
-
-  <!-- <svg width="2000px" height="7px" viewBox="0 0 693 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-      <defs></defs>
-      <g class="line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" transform="translate(300,1)">
-          <path d="M0,3.5 L500,3.5" id="projects_line" stroke="#051D68" stroke-width="4"></path>
-      </g>
-  </svg> -->
-
-  <div id="projects" class="projects">
+  <section id="projects" class="projects">
     <h2>Projects</h2>
     <div class="grid-container">
       <div class="project_square purple">
@@ -53,17 +46,10 @@
       </div>
     </div>
     <a href="https://github.com/developess" target="_blank"><button>See More on Github</button></a>
-  </div>
+  </section>
 
-
-
-  <div id="CV" class="CV">
+  <section id="Why" class="CV">
     <h2>Why I love to code</h2>
-    <!-- <p>
-      If you’re an employer looking for a passionate, team-oriented and
-      dedicated Junior Developer then I would love to hear from you. I hope to
-      be seeking opportunities from November 2018.
-    </p> -->
     <p>
       Coding for me is a perfect mix of creativity and science. Creativity in the
       sense of using imagination and style, but also in the literal sense of
@@ -77,21 +63,15 @@
       and full of people eager to learn and help others learn too. I hope to contribute
       to this community as a student and teacher in years to come!
     </p>
-    <div class=button-div>
-      <!-- <a href="#"><button>Download</button></a> -->
-    </div>
-  </div>
+  </section>
 
-
-
-  <div id="about_me" class="about-me">
+  <section id="about_me" class="about-me">
     <img class="side_bird" src="img/bigBird.png" alt="blue origami bird"/>
     <h2>About Me</h2>
     <p>
       Aside from my development career, I love attending meet ups and tech
       events in London and working on personal projects. Outside tech, I
       enjoy running, yoga, cooking and crafts (including origami).
-
     </p>
     <p>
       Before teaching myself to code, I ran the finances for a start-up creative
@@ -100,14 +80,13 @@
       looked back since.
     </p>
     <div class="icon-container">
-      <a href="https://www.codewars.com/users/developess" target="_blank"><img src="img/codewars.svg" alt="codewars icon" class="icon codewars"/></a>
-      <a href="https://www.freecodecamp.org/developess" target="_blank"><img src="img/fcc.svg" alt="FCC icon" class="icon FCC"/></a>
-      <a href="https://github.com/developess/developess.github.io" target="_blank"><img src="img/github.svg" alt="Github icon" class="icon Github"/></a>
-      <a href="https://www.linkedin.com/in/jessie-beech/" target="_blank"><img src="img/mylinkedin.svg" alt="Linkedin icon" class="icon Linkedin"/></a>
+      <a href="https://www.codewars.com/users/developess" target="_blank"><img src="img/codewars.svg" alt="codewars" class="icon codewars"/></a>
+      <a href="https://www.freecodecamp.org/developess" target="_blank"><img src="img/fcc.svg" alt="FreeCodeCamp" class="icon"/></a>
+      <a href="https://github.com/developess/developess.github.io" target="_blank"><img src="img/github.svg" alt="Github" class="icon Github"/></a>
+      <a href="https://www.linkedin.com/in/jessie-beech/" target="_blank"><img src="img/mylinkedin.svg" alt="Linkedin" class="icon Linkedin"/></a>
     </div>
     <img class="logo_bottom" src="img/logo.svg" alt="j b logo"/>
-  </div>
-
-
+  </section>
 
 </body>
+</html>

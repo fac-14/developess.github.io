@@ -92,7 +92,7 @@ ul {
   justify-content: center;
 }
 
-li {
+li a {
   width: 7em;
   padding: none;
   justify-content: center;
@@ -213,10 +213,6 @@ ________________*/
 
 .CV p {
   padding: 20px 0;
-}
-
-.button-div {
-  text-align: center;
 }
 
 .CV button {
